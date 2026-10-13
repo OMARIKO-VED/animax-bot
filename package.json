@@ -1,0 +1,18 @@
+{
+  "name": "animax-bot",
+  "version": "1.0.0",
+  "description": "Discord community management and server auto-builder bot for Animax anime streaming platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node watchdog.js",
+    "bot": "node index.js",
+    "watchdog": "node watchdog.js"
+  },
+  "keywords": ["discord", "bot", "anime", "animax"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  }
+}
